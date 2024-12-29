@@ -17,9 +17,11 @@ to compile the program from within source directory:
 
 v -prod .
 
-or if you want gcc as compiler:
+or if you want gcc (already installed) as compiler:
 
-v -prod -cc gcc .
+v -prod -cc gcc .   
+
+
 
 SDL module must be installed: https://vpm.vlang.io/packages/sdl
 and post install script executed, see link.
